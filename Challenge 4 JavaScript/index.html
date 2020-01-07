@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge 4</title>
+</head>
+<body style="background-color: rgb(0, 128, 128);">
+    <div class="container-1">
+        <h1>Challenge 4 :- Button Colour Change </h1>
+        <div class="flex-box-pick-color">
+            <form>
+                <select name="backdrop" id="background" onchange="buttoncolorchange(this)">
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="reset">Reset</option>
+                </select>
+            </form>
+
+            <button class="btn btn-primary">Yahoo!</button>
+            <button class="btn btn-success">Google</button>
+            <button class="btn btn-danger">Facebook</button>
+            <button class="btn btn-warning">Youtube</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
